@@ -7,6 +7,7 @@ from PIL import ImageTk, Image
 import requests
 import io
 
+
 def fetch_video_details():
     url = url_entry.get().strip()
     try:
