@@ -114,3 +114,5 @@ def fetch_video_details():
         messagebox.showerror("Error", "Invalid YouTube URL.")
     except Exception as e:
         messagebox.showerror("Error", f"Failed to fetch video info:\n{e}")
+
+
